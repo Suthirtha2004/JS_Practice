@@ -32,3 +32,29 @@ const myfunc = function(){         //constant type function declaration
  //Use typeof to know datatype of javascript
 
  console.log(typeof myfunc); //Basiaclly the function is object function type
+
+
+ //******************************************************************************************* */
+ //MEMORY
+ /* 
+ Stack -primitive datatype we will get copy of that variable
+ Heap - reference of original value changes will occur in original value
+*/
+let myName = "Archer"
+
+let anotherName = myName;
+anotherName = "Knight";
+console.log(myName)
+console.log(anotherName)
+
+
+let user1 = {
+    email : "abc@mail.com",    // Goes to heap
+    id :1,
+}
+
+let user2 = user1;
+user2.email  = "xyz@mail.com" //The dot operator is used to access the object properties
+
+console.log(user1.email);
+console.log(user2.email);
