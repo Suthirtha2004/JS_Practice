@@ -1,7 +1,7 @@
 const name = "Archer";
 const repoCount = 50;
 
-//Use backticks they are like place holders in javascript - String , String injection
+//Use backticks they are like place holders in javascript - String , String injection,string interpolation
 
 console.log(`Hello my name is ${name} and amy repo count is ${repoCount}`);
 
