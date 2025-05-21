@@ -18,4 +18,4 @@ console.log(undefined == 0)
 
 //Strict check === This not only checks value but also their datatypes
 
-//console.log("2" === 0); //Not possible checks datatype
+//console.log("2" === 0); //Not possible checks datatype.
